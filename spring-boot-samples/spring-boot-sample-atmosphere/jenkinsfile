@@ -1,8 +1,8 @@
 node {
 notify ('started')
-//    stage('checkout') {
-//       git 'https://github.com/matturi/jenkins.git'
-//     }
+   stage('checkout') {
+       git 'https://github.com/matturi/jenkins.git'
+     }
 
     def project_path = "spring-boot-samples/spring-boot-sample-atmosphere"
 
